@@ -27,7 +27,7 @@
     "@tiptap/extension-underline": "^2.11.5",
     "@tiptap/react": "^2.11.5",
     "@tiptap/starter-kit": "^2.11.5",
-    "@tiptap/suggestion": "^3.22.4",
+    "@tiptap/suggestion": "^2.11.5",
     "lowlight": "^3.3.0",
     "lucide-react": "^0.511.0",
     "openai": "^6.34.0",
