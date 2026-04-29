@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import {
   FileText, FolderPlus, Search, Sun, Moon, ChevronRight,
-  ChevronDown, Hash, Star, Clock, Trash2, PanelLeftClose, PanelLeft,
+  ChevronDown, Hash, Star, Clock, Trash2, PanelLeftClose, PanelLeft, ListTodo,
 } from 'lucide-react'
 import { useNotesStore } from '../store/notesStore'
 
@@ -113,6 +113,12 @@ export default function Sidebar() {
           label="废纸篓"
           active={false}
           onClick={() => {}}
+        />
+        <NavItem
+          icon={<ListTodo size={15} />}
+          label="今日规划"
+          active={activeFolderId === '__planner__'}
+          onClick={() => setActiveFolder('__planner__')}
         />
       </nav>
 
